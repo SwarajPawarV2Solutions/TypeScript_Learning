@@ -1,0 +1,14 @@
+var student = {
+    firstname: "John",
+    lastname: "Bailey",
+    Marks: 90
+};
+console.log(student.firstname);
+console.log(student.Marks);
+//Printing data using for-in Loop
+for (var item in student) {
+    console.log(student[item]);
+}
+// De-structuring of Objcts
+var firstname = student.firstname, lastname = student.lastname;
+console.log(firstname + " " + lastname);
